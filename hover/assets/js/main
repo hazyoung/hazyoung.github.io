@@ -1,0 +1,6 @@
+body {
+  font-family: courier;
+  font-size: 20px;
+  color: blue;
+  
+}

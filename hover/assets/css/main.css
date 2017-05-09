@@ -1,0 +1,37 @@
+body {
+font-family: courier;
+font-size: 20px;
+}
+
+.number {
+padding: 2px;
+background-color: red;
+}
+
+.number:hover {
+  background-color: orange;
+  }
+
+
+  .footnote {
+    position: fixed;
+    bottom: 10px;
+    left:10px;
+    display:none;
+  }
+
+  .footnote.showme {
+    color: red;
+    display: block;
+
+  }
+
+  .thumbnail {
+      transition: 2s;
+    width: 150px;
+
+  }
+.thumbnail.enlarge{
+  width: 600px;
+  transition: 2s;
+}
